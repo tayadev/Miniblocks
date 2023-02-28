@@ -1,0 +1,23 @@
+name: Miniblocks
+description: Adds 600+ Miniblocks to Minecraft
+author: Taya Crystals
+version: 0.1.0
+output: build
+data_pack:
+  pack_format: 10
+  load: ["."]
+ignore:
+  - "textures"
+  - "data.json"
+pipeline:
+  - generate_miniblocks
+  - beet.contrib.installation_advancement
+  - beet.contrib.minify_json
+  - beet.contrib.minify_function
+  - beet.contrib.strip_final_newlines
+meta:
+  installation_advancement:
+    icon: {"item": "minecraft:player_head", "nbt": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"amethyst_block\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk5MWY3M2FlOGQ1NzliZmVmMGMwMjNjNTJlODU3MzcxYzgxMjQxY2ZjNzZmZTVmZWNhMDBkYTZhYThmNjBkNyJ9fX0=\"}]}}}"}
+    author_namespace: tayacrystals
+    author_description: https://taya.one
+    author_skull_owner: TayaMc
