@@ -6,8 +6,14 @@
 
 Adds 600+ Miniblocks to Minecraft
 
-Covers all full minecraft blocks and all mob and animal heads\
-Future Updates will add additional novel miniblocks
+Covers all full minecraft blocks and all mob and animal heads
+
+## Obtaining
+Currently the miniblocks are only accessible via `/function miniblocks:give/<name>` or as a loot table reward
+
+## Planned Features
+- Survival Obtainability
+- Novel blocks for decoration
 
 ## Mosaic of all Miniblocks (from the front)
-![Gallery](gallery.png)
+![](gallery.png)
